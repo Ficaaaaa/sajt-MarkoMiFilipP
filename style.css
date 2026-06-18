@@ -1,4 +1,4 @@
-/* RESET */
+@media screen and (min-width: 600px) {
 * {
     margin: 0;
     padding: 0;
@@ -177,8 +177,9 @@ section {
     scroll-margin-top: 50px;
 }
 
+}
 /* RESPONSIVE */
-@media screen and (max-width: 800px) {
+
 
 body {
         background: linear-gradient(180deg, #071428, #0b1b3a);
@@ -207,4 +208,3 @@ body {
         grid-template-columns: 1fr;
     }
 
-}
